@@ -26,16 +26,16 @@
 
 *- **Original Dataset:** The strategy produces slightly favourable results compared to the actual results based on the original paratmers. *Actual returns are 1.4*, whereas *strategy returns are 1.5*.
 
-*- **Iteration 1:** By changing the parameters and increasing the end date to 6 months and changing the short and long windows to 21 days 50 days, the results are dratically different: the **actual returns has started an upward trend reaching 1.4* and the *strategy return has started a downward trend and going below 0.8**.
+*- **Iteration 1:** By changing the parameters and increasing the end date to *6 months* and changing the short and long windows to 21 days 50 days, the results are dratically different: the *actual returns has started an upward trend reaching 1.4* and the *strategy return has started a downward trend and going below 0.8*.
 
 *- **Iteration 2:** By changing the windows to 21 and 200 days, the actual returns still performed better than the strategy: *actual returns at 1.6* and *strategy return at 1.45*.
 
 ## Evaluated a New Machine Learning Classifier
 
 **STEPS:**
-Imported a new classifier - LogisticRegression, from scikit-learn.
-Used the original training data as a baseline model to fit another model with the new classifier. The model was trained using the training data, and predictions were made based on the testing data.
-Backtested the new model to evaluate its performance. Created a cumulative return plot that showed the actual returns vs. the strategy returns for the updated trading algorithm. Saved this plot as a PNG image as *lr_plot.png*.
+*- Imported a new classifier - LogisticRegression, from scikit-learn.
+*- Used the original training data as a baseline model to fit another model with the new classifier. The model was trained using the training data, and predictions were made based on the testing data.
+*- Backtested the new model to evaluate its performance. Created a cumulative return plot that showed the actual returns vs. the strategy returns for the updated trading algorithm. Saved this plot as a PNG image as *lr_plot.png*.
 
 ### Logistic Regression Model Conclusion:
 The model produced almost similar results towards the end; however, it had a higher volatility than the original model.
