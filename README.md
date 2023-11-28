@@ -33,9 +33,9 @@
 ## Evaluated a New Machine Learning Classifier
 
 **STEPS:**
-*- Imported a new classifier - LogisticRegression, from scikit-learn.
-*- Used the original training data as a baseline model to fit another model with the new classifier. The model was trained using the training data, and predictions were made based on the testing data.
-*- Backtested the new model to evaluate its performance. Created a cumulative return plot that showed the actual returns vs. the strategy returns for the updated trading algorithm. Saved this plot as a PNG image as *lr_plot.png*.
+*-Imported a new classifier - LogisticRegression, from scikit-learn.
+*-Used the original training data as a baseline model to fit another model with the new classifier. The model was trained using the training data, and predictions were made based on the testing data.
+*-Backtested the new model to evaluate its performance. Created a cumulative return plot that showed the actual returns vs. the strategy returns for the updated trading algorithm. Saved this plot as a PNG image as *lr_plot.png*.
 
 ### Logistic Regression Model Conclusion:
 The model produced almost similar results towards the end; however, it had a higher volatility than the original model.
