@@ -3,19 +3,19 @@
 ## Established a Baseline Performance
 
 **STEPS:**
-Imported the OHLCV dataset into a Pandas DataFrame by reading the CSV file named "emerging_markets_ohlcv.csv" and setting the 'date' column as the index.
+- Imported the OHLCV dataset into a Pandas DataFrame by reading the CSV file named "emerging_markets_ohlcv.csv" and setting the 'date' column as the index.
 
-Generated trading signals using short- and long-window SMA values. Calculated the simple moving averages (SMA) for the 'close' price using a short window of 4 days and a long window of 100 days. These SMAs were added as columns to the DataFrame.
+- Generated trading signals using short- and long-window SMA values. Calculated the simple moving averages (SMA) for the 'close' price using a short window of 4 days and a long window of 100 days. These SMAs were added as columns to the DataFrame.
 
-Filtered the DataFrame to remove rows with NaN values, ensuring data consistency.
+- Filtered the DataFrame to remove rows with NaN values, ensuring data consistency.
 
-Initialized a new 'Signal' column in the DataFrame with default values of 0. This column stored trading signals.
+- Initialized a new 'Signal' column in the DataFrame with default values of 0. This column stored trading signals.
 
-Based on the 'Actual Returns' column, generated signals to buy stock long when returns were greater than or equal to 0 and sell stock short when returns were less than 0.
+- Based on the 'Actual Returns' column, generated signals to buy stock long when returns were greater than or equal to 0 and sell stock short when returns were less than 0.
 
-Calculated the strategy returns by multiplying the 'Actual Returns' by the 'Signal' and stored them in a new 'Strategy Returns' column.
+- Calculated the strategy returns by multiplying the 'Actual Returns' by the 'Signal' and stored them in a new 'Strategy Returns' column.
 
-Plotted the cumulative returns of the strategy against the actual returns to visualize the baseline performance. Saved this plot as a PNG image saved as **(svm_plot)*.
+- Plotted the cumulative returns of the strategy against the actual returns to visualize the baseline performance. Saved this plot as a PNG image saved as **(svm_plot)*.
 
 
 ## Tuned the Baseline Trading Algorithm
