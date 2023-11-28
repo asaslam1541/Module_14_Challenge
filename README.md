@@ -24,11 +24,11 @@
 
 ### Conclusion
 
-- **Original Dataset:** The strategy produces slightly favourable results compared to the actual results based on the original paratmers. *Actual returns are 1.4**, whereas **strategy returns are 1.5*.
+*- **Original Dataset:** The strategy produces slightly favourable results compared to the actual results based on the original paratmers. *Actual returns are 1.4*, whereas *strategy returns are 1.5*.
 
-- **Iteration 1:** By changing the parameters and increasing the end date to 6 months and changing the short and long windows to 21 days 50 days, the results are dratically different: the **actual returns has started an upward trend reaching 1.4* and the *strategy return has started a downward trend and going below 0.8**.
+*- **Iteration 1:** By changing the parameters and increasing the end date to 6 months and changing the short and long windows to 21 days 50 days, the results are dratically different: the **actual returns has started an upward trend reaching 1.4* and the *strategy return has started a downward trend and going below 0.8**.
 
-- **Iteration 2:** By changing the windows to 21 and 200 days, the actual returns still performed better than the strategy: *actual returns at 1.6* and *strategy return at 1.45*.
+*- **Iteration 2:** By changing the windows to 21 and 200 days, the actual returns still performed better than the strategy: *actual returns at 1.6* and *strategy return at 1.45*.
 
 ## Evaluated a New Machine Learning Classifier
 
